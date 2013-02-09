@@ -37,5 +37,5 @@ namespace PMG\GoogleRemarketing;
 
 require_once __DIR__ . '/inc/functions.php';
 
-add_action('pmgcore_loaded', 'ml_remarketing_load', 5);
-register_activation_hook(__FILE__, 'ml_remarketing_activate');
+add_action('pmgcore_loaded', 'pmg_remarketing_load', 5);
+register_activation_hook(__FILE__, 'pmg_remarketing_activate');

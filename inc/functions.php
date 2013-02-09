@@ -14,7 +14,7 @@
 use PMG\GoogleRemarketing\RemarketingAdmin;
 use PMG\GoogleRemarketing\Remarketing;
 
-function ml_remarketing_load()
+function pmg_remarketing_load()
 {
     require_once __DIR__ . '/RemarketingBase.php';
 
@@ -27,7 +27,7 @@ function ml_remarketing_load()
     }
 }
 
-function ml_remarketing_activate()
+function pmg_remarketing_activate()
 {
     add_option('pmg_remarketing_options', array(
         'conversion_id'     => '',
