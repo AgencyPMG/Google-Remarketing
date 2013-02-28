@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Google Remarketing
+ * Plugin Name: PMG Google Remarketing
  * Plugin URI: https://github.com/AgencyPMG/Google-Remarketing
  * Description: Add google remarketing tracking to your WordPress site.
- * Version: 1.0
+ * Version: 1.2
  * Text Domain: pmg-remarketing
  * Author: Christopher Davis
  * Author URI: http://pmg.co/people/chris
